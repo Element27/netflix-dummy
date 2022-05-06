@@ -223,3 +223,103 @@ footer a{
 footer a:hover{
     text-decoration: underline;
 }
+
+
+@media screen and (max-width:900px){
+    .head-container{
+        height: 80vh;
+    }
+    .get-started {
+        width: 80vw;
+        margin: 10rem auto;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+    
+    h2 {
+        font-size: 2rem;
+    }
+    
+    
+    h3, td {
+        font-size: 1.8rem;
+    }
+    
+    
+    h4 {
+        font-size: 1.4rem;
+    }
+    .top-bar img {
+        width: 10rem;
+    }
+    
+    .top-bar a {
+        font-size: 1rem;
+        }
+        .blur {
+            padding: 1.2rem 2rem;
+        
+        }
+
+        input,
+        button {
+            height: 4rem;
+        }
+        
+         input {
+            width: 65%;
+        }
+        
+         button {
+            font-size: 1.5rem;
+            line-height: 0;
+            color: var(--text-white);
+        }
+        
+        button img {
+            height: 1.5rem;
+        }
+        
+        
+.section .inner-section {
+   flex-direction: column;
+    justify-content: center;
+    margin: 2rem auto;
+
+}
+
+.section .text {
+    width: fit-content;
+}
+
+.section img {
+    width: 200px;
+}
+ 
+/* faq section */
+
+.faq-container table{
+    width: fit-content;
+    margin: 2rem auto;
+}
+.faq-container tr{
+    height: 3rem;
+    }
+
+.faq-container td{
+    padding: 0 3rem;
+}
+
+.faq-container .plus{
+    font-size: 2rem;
+    padding: 0 2rem;
+}
+
+/* footer  */
+
+.footer-body ul{
+    margin-bottom: 2.5rem;
+}
+}
